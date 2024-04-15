@@ -11,6 +11,6 @@ jobs:
         with:
           node-version: 20
       - name: install dependenices
-        run: mpn ci
+        run: npm ci
       - name:
         run: npm test
